@@ -39,6 +39,17 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.ActualRealityOSVersionDetailPreferenceController"/>
 
+   <!-- AROS Maintainer -->
+    <Preference
+        android:key="aros_maintainer"
+        android:title="@string/aros_maintainer"
+        android:summary="@string/aros_maintainer_name"
+        settings:enableCopying="true" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/aros_maintainer_group"/>
+    </Preference>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"

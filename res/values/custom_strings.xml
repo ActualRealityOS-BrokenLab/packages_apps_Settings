@@ -118,4 +118,9 @@
     <!-- About device screen, ActualRealityOS -->
     <string name="actualrealityos_version">ActualRealityOS version</string>
 
+    <!-- AROS maintainer in About phone -->
+    <string name="aros_maintainer">Maintainer</string>
+    <string name="aros_maintainer_name" translatable="false">Aryan</string>
+    <string name="aros_maintainer_group" translatable="false">https://t.me/actualrealityos</string>
+
 </resources>
